@@ -24,7 +24,7 @@ int main()
             invoke MessageBox,NULL,offset szText,\offset szCaption,MB_MODEMASK
             invoke ExitProcess,NULL
              end start*/
-
+        //haha
         data segment
       
         szHello db  'Hello, world', 0dh, 0ah, '$'
